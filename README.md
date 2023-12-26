@@ -42,3 +42,10 @@ Simple hut
 nwr["amenity"="shelter"]["shelter_type"="basic_hut"]({{bbox}});
 out center;
 ```
+
+Free simple huts
+
+```Overpass QL
+nwr["amenity"="shelter"]["shelter_type"="basic_hut"]["fee"="no"]({{bbox}});
+out center;
+```
