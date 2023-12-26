@@ -14,7 +14,13 @@ ___
 
 ### Wilderness huts
 
-// gather results  
+[Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn6.jpg)
+[Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn5.jpg)
+
 nwr["tourism"="wilderness_hut"]({{bbox}});  
-// print results  
 out center;  
+
+#### Free wilderness huts
+
+nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
+out center;
