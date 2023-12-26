@@ -14,14 +14,18 @@ ___
 
 ### Wilderness huts
 
+Wilderness hut
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn6.jpg)
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn5.jpg)
+Simple hut
+![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
+![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-8.jpg)
 
 #### Simple query
 
 ```Overpass QL
 nwr["tourism"="wilderness_hut"]({{bbox}});
-out center;  
+out center;
 ```
 
 #### Free wilderness huts
@@ -30,3 +34,5 @@ out center;
 nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
 out center;
 ```
+
+#### Simple huts
