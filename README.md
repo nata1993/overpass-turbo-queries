@@ -66,4 +66,32 @@ ___
 Tent site
 ![Example of tent site](https://media.voog.com/0000/0030/9870/photos/J%C3%B5eharu%20TA.jpg)
 
+Simple query
+
+```Overpass QL
+nwr["tourism"="camp_site"]({{bbox}});
+out center;
+```
+
+Free tent site query
+
+```Overpass QL
+nwr["tourism"="camp_site"]["fee"="no"]({{bbox}});
+out center;
+```
+
+Free tent site with toilet query
+
+```Overpass QL
+nwr["tourism"="camp_site"]["fee"="no"]["toilets"="yes"]({{bbox}});
+out center;
+```
+
+Free tent site with toilet and shower query
+
+```Overpass QL
+nwr["tourism"="camp_site"]["fee"="no"]["toilets"="yes"]["shower"="yes"]({{bbox}});
+out center;
+```
+
 [Back up](#Contents)
