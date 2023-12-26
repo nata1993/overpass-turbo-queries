@@ -17,6 +17,8 @@ ___
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn6.jpg)
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn5.jpg)
 
+#### Simple query
+
 nwr["tourism"="wilderness_hut"]({{bbox}});  
 out center;  
 
