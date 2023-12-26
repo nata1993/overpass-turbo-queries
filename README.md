@@ -19,10 +19,14 @@ ___
 
 #### Simple query
 
+`
 nwr["tourism"="wilderness_hut"]({{bbox}});  
 out center;  
+`
 
 #### Free wilderness huts
 
+`
 nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});  
 out center;
+`
