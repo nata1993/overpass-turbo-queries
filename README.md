@@ -9,7 +9,7 @@ ___
 
 ## Hiking queries
 
-### Wilderness huts {#Wilderness-huts}
+### Wilderness huts
 
 // gather results  
 nwr["tourism"="wilderness_hut"]({{bbox}});  
