@@ -17,9 +17,6 @@ ___
 Wilderness hut
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn6.jpg)
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn5.jpg)
-Simple hut
-![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
-![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-8.jpg)
 
 #### Simple query
 
@@ -36,3 +33,12 @@ out center;
 ```
 
 #### Simple huts
+
+Simple hut
+![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
+![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-8.jpg)
+
+```Overpass QL
+nwr["amenity"="shelter"]["shelter_type"="basic_hut"]({{bbox}});
+out center;
+```
