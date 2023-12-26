@@ -3,10 +3,12 @@
 Just copy the query and paste in the Overpass-turbo query building tool to search for needed stuff.
 [Overpass-turbo](https://overpass-turbo.eu/)
 
-## Contencts
+## Contents
 
 1. Hiking queries
     1. [Wilderness huts](#Wilderness-huts)
+        1. [Wilderness huts](#Wilderness-huts)
+        2. [Simple huts](#Simple-huts)
 
 ___
 
@@ -32,7 +34,7 @@ nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
 out center;
 ```
 
-#### Simple huts
+### Simple huts
 
 Simple hut
 ![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
