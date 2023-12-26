@@ -42,6 +42,8 @@ Simple hut
 ![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
 ![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-8.jpg)
 
+Simple query
+
 ```Overpass QL
 nwr["amenity"="shelter"]["shelter_type"="basic_hut"]({{bbox}});
 out center;
