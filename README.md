@@ -24,5 +24,5 @@ out center;
 
 #### Free wilderness huts
 
-nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
+nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});  
 out center;
