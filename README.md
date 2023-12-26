@@ -9,6 +9,7 @@ Just copy the query and paste in the Overpass-turbo query building tool to searc
     1. [Wilderness huts](#Wilderness-huts)
         1. [Wilderness huts](#Wilderness-huts)
         2. [Simple huts](#Simple-huts)
+    2. [Tent sites](#Tent-sites)
 
 ___
 
@@ -55,5 +56,14 @@ Free simple huts
 nwr["amenity"="shelter"]["shelter_type"="basic_hut"]["fee"="no"]({{bbox}});
 out center;
 ```
+
+[Back up](#Contents)
+
+___
+
+### Tent sites
+
+Tent site
+![Example of tent site](https://media.voog.com/0000/0030/9870/photos/J%C3%B5eharu%20TA.jpg)
 
 [Back up](#Contents)
