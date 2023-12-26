@@ -34,6 +34,8 @@ nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
 out center;
 ```
 
+[Back up](#Contents)
+
 ### Simple huts
 
 Simple hut
@@ -51,3 +53,5 @@ Free simple huts
 nwr["amenity"="shelter"]["shelter_type"="basic_hut"]["fee"="no"]({{bbox}});
 out center;
 ```
+
+[Back up](#Contents)
