@@ -1,14 +1,16 @@
 # Overpass-turbo-queries
+
 ## Contencts
-### Hiking queries
-#### Wilderness huts
 
+1. Hiking queries
+    1. [Wilderness huts](### Wilderness huts)
 
-
-
+___
 
 ## Hiking queries
+
 ### Wilderness huts
+
 // gather results  
 nwr["tourism"="wilderness_hut"]({{bbox}});  
 // print results  
