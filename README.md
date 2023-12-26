@@ -19,14 +19,14 @@ ___
 
 #### Simple query
 
-`
+```Overpass QL
 nwr["tourism"="wilderness_hut"]({{bbox}});
 out center;  
-`
+```
 
 #### Free wilderness huts
 
-`
+```Overpass QL
 nwr["tourism"="wilderness_hut"]["fee"="no"]({{bbox}});
 out center;
-`
+```
