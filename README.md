@@ -116,7 +116,22 @@ ___
 
 ### Shower
 
+Shower: may be paid with hot water and may be simple rinse shower at the beach without hot water or possibility to properly wash.
 ![Shower symbol](https://upload.wikimedia.org/wikipedia/commons/e/e3/PL_road_sign_D-26d.svg)
+
+Simple query
+
+```Overpass QL
+nwr["amenity"="shower"]({{bbox}});
+out center;
+```
+
+Paid shower query
+
+```Overpass QL
+nwr["amenity"="shower"]["fee"="yes"]({{bbox}});
+out center;
+```
 
 [Back up](#Contents)
 
