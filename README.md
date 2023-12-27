@@ -9,7 +9,8 @@ Just copy the query and paste in the Overpass-turbo query building tool to searc
     1. [Wilderness huts](#Wilderness-huts)
         1. [Wilderness huts](#Wilderness-huts)
         2. [Simple huts](#Simple-huts)
-    2. [Tent sites](#Tent-sites)
+    2. [Lean-to's](#Lean-tos)
+    3. [Tent sites](#Tent-sites)
 
 ___
 
@@ -17,7 +18,7 @@ ___
 
 ### Wilderness huts
 
-Wilderness hut
+Wilderness hut: has fireplace or stove, free rent, fully closed (foor and walls).
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn6.jpg)
 ![Example of wilderness hut](https://media.voog.com/0000/0030/9870/photos/Liipsaare%20metsaonn5.jpg)
 
@@ -39,7 +40,7 @@ out center;
 
 ### Simple huts
 
-Simple hut
+Simple hut: no fireplace or stove, fully closed (roof and walls).
 ![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-7.jpg)
 ![Example of simple hut](https://media.voog.com/0000/0030/9870/photos/Kautsi%20metsaonn-8.jpg)
 
@@ -58,6 +59,13 @@ out center;
 ```
 
 [Back up](#Contents)
+
+___
+
+### Lean-to's
+
+Lean-to: not fully closed, at least one wall open.
+![Example of lean-to](https://media.voog.com/0000/0030/9870/photos/Kurisoo%20l%C3%B5kkekoht.jpg)
 
 ___
 
