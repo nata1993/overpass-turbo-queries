@@ -11,6 +11,7 @@ Just copy the query and paste in the Overpass-turbo query building tool to searc
         2. [Simple huts](#Simple-huts)
     2. [Lean-to's](#Lean-tos)
     3. [Tent sites](#Tent-sites)
+    4. [Shower](#Shower)
 
 ___
 
@@ -67,11 +68,18 @@ ___
 Lean-to: not fully closed, at least one wall open.
 ![Example of lean-to](https://media.voog.com/0000/0030/9870/photos/Kurisoo%20l%C3%B5kkekoht.jpg)
 
+Simple query
+
+```Overpass QL
+nwr["amenity"="shelter"]["shelter_type"="lean_to"]({{bbox}});
+out center;
+```
+
 ___
 
 ### Tent sites
 
-Tent site
+Backcountry camp site: no facilities, may not have toilet, generally has fireplace and picnic table.
 ![Example of tent site](https://media.voog.com/0000/0030/9870/photos/J%C3%B5eharu%20TA.jpg)
 
 Simple query
@@ -95,7 +103,7 @@ nwr["tourism"="camp_site"]["fee"="no"]["toilets"="yes"]({{bbox}});
 out center;
 ```
 
-Free tent site with toilet and shower query
+Free tent site with toilet and shower query - those are rarity usually in a lot of places...
 
 ```Overpass QL
 nwr["tourism"="camp_site"]["fee"="no"]["toilets"="yes"]["shower"="yes"]({{bbox}});
@@ -103,3 +111,13 @@ out center;
 ```
 
 [Back up](#Contents)
+
+___
+
+### Shower
+
+![Shower symbol](https://upload.wikimedia.org/wikipedia/commons/e/e3/PL_road_sign_D-26d.svg)
+
+[Back up](#Contents)
+
+___
