@@ -126,7 +126,7 @@ nwr["amenity"="shower"]({{bbox}});
 out center;
 ```
 
-Paid shower query
+Paid shower query, those are usually more tidy and have hot water
 
 ```Overpass QL
 nwr["amenity"="shower"]["fee"="yes"]({{bbox}});
